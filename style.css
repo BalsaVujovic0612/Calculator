@@ -1,0 +1,49 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+
+input{
+    min-width: 292px;
+    height: 70px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: aqua;
+
+}
+
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    max-width: 400px;
+}
+
+.btn button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: orange;
+    border: solid black;
+}
+
+.btn button:hover {
+    background-color: #e0e0e0;
+}
+
+.btn button:active {
+    background-color: #d1d1d1;
+}
